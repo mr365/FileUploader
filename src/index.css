@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.pdfUploadSection {
+  color: #FFFFFF;
+  position: relative;
+  background: #070D59;
+  width: 40%;
+  max-width: 300px;
+}
+
+.logo__sm--white {
+  width: 208px;
+  height: 37px;
+  margin: 2rem;
+}
+.section__title {
+  text-transform: uppercase;
+  padding-left: 2rem;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(255, 255, 255, 0.27);
+}
+.uploadSectionFiles {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 31px;
+  cursor: pointer;
+}
+.yourClassName {
+  background: green;
+}
+.uploadSectionFiles:focus {
+  background-color: #5893D4;
+  opacity: 0.2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+
+.uploadSectionFiles .fileName__container {
+  padding-left: 1rem;
+}
+
+.fileName--title{
+  color: #FFFFFF;
+}
+
+.fileName--subtitle {
+  color:rgb(93, 66, 245);
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.uploadButtonContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  text-align: center;
+}
+
+.dropzoneHelper {
+  display: inline-block;
+}
+
+.uploadButton {
+  color: #FFFFFF;
+  padding: 12px 40px;
+  font-size: 14px;
+  background: #F7B633;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  outline: 0;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+
